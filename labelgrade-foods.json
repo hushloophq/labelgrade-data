@@ -6,8 +6,8 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Labelgrade — https://labelgrade.com",
     "source": "USDA FoodData Central + manufacturer labels; scores by Labelgrade methodology (https://labelgrade.com/methodology).",
-    "version": "2026-06-06",
-    "productCount": 344,
+    "version": "2026-06-07",
+    "productCount": 356,
     "foodCount": 74,
     "url": "https://labelgrade.com/data"
   },

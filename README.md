@@ -1,6 +1,6 @@
 # Labelgrade Open Nutrition Dataset
 
-**344 branded packaged foods + 74 whole foods, each graded A–F on a transparent, reproducible 6-dimension nutrition score — built entirely from public [USDA FoodData Central](https://fdc.nal.usda.gov/) data.** Licensed **CC BY 4.0** (free to use with attribution).
+**356 branded packaged foods + 74 whole foods, each graded A–F on a transparent, reproducible 6-dimension nutrition score — built entirely from public [USDA FoodData Central](https://fdc.nal.usda.gov/) data.** Licensed **CC BY 4.0** (free to use with attribution).
 
 Maintained by **[Labelgrade](https://labelgrade.com)** — honest A–F grades for every branded food.
 📊 Browse it online: **https://labelgrade.com/data** · 📐 Full methodology: **https://labelgrade.com/methodology**
@@ -11,9 +11,9 @@ Maintained by **[Labelgrade](https://labelgrade.com)** — honest A–F grades f
 
 | File | Rows | Description |
 |---|---|---|
-| `labelgrade-products.csv` / `.json` | **344** | Branded packaged products: per-serving macros + the full Labelgrade (overall score & letter + all six dimension sub-scores). |
+| `labelgrade-products.csv` / `.json` | **356** | Branded packaged products: per-serving macros + the full Labelgrade (overall score & letter + all six dimension sub-scores). |
 | `labelgrade-foods.csv` / `.json` | **74** | Whole-food USDA references (e.g. chicken breast, plain Greek yogurt): macros per 100 g. |
-| `labelgrade-dataset.json` | 344 + 74 | Combined products + foods + `meta` (version, generation date, weights). |
+| `labelgrade-dataset.json` | 356 + 74 | Combined products + foods + `meta` (version, generation date, weights). |
 
 Every row carries its source `usda_fdc_id` (verify against USDA anytime) and a `report_url` linking to the full graded breakdown on labelgrade.com.
 
